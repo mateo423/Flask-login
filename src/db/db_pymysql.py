@@ -15,3 +15,4 @@ class BaseData:
     
     def cursor(self):
         self.connection.cursor()
+        

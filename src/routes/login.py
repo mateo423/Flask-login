@@ -17,12 +17,14 @@ def login():
  
         cur = db.connection.cursor()  # Obtener un cursor válido desde la conexión
 
+
         try:
             cur.execute('SELECT * FROM usuarios WHERE username = %s AND password = %s', (_username, _password,))
             account = cur.fetchone()
         except Exception as e:
             print(f"Error al ejecutar la consulta SQL: {str(e)}")
             account = None
+
 
         cur.close()
 
@@ -34,3 +36,4 @@ def login():
             return redirect(url_for('login.admin'))
     
     return render_template('login.html')
+

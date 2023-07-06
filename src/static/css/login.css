@@ -5,6 +5,7 @@ body{
   background: #24baff;
 }
 
+
 h1{
   font-size: 2rem;
   color: #07001f;
@@ -19,6 +20,7 @@ h1{
   padding: 8% 0 0;
   margin: auto;
 }
+
 .form {
   position: relative;
   z-index: 1;
@@ -29,6 +31,7 @@ h1{
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
+
 .form input {
   font-family: "Poppins", sans-serif;
   outline: 0;
@@ -40,6 +43,7 @@ h1{
   box-sizing: border-box;
   font-size: 14px;
 }
+
 .form button {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;

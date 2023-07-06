@@ -11,6 +11,7 @@ app.secret_key = '19af8d2176878bc9230cf163c129437e0be85bdc7c66474547d72dbfa4b358
 #Connection BaseDatos
 
 
+
 db = BaseData(host='', user='root', password='', db='')
 
 
